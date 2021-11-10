@@ -10,6 +10,9 @@ def superattack():
     number = 1000
     return number
 
+def main():
+    pass
+
 while me >= 1 and you >= 1:
     action = input("1:ため　2:攻撃　3:ため攻撃　4:バリア　")
 
@@ -34,3 +37,7 @@ if you <= 0:
     print("you win!")
 elif me <= 0:
     print("you lose")
+    
+    
+if __name__ == "__main__":
+	main()
